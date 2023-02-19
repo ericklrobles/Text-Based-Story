@@ -19,13 +19,17 @@ int main(void)
          printf("you get a corona and later realized you got drugged yourself and betrayed by one of your homies\n");
         }
         if(input2 == 'n'){
-            printf("You saved yourself congrats, afterwards you meet up some new guy in town called Heisenberg selling some of that new blue");
-            printf("Do you meet with them and steal their blue and make an ez profit or you peacefully accept their offer(1/2)");
+            printf("You saved yourself congrats, afterwards you meet up some new guy in town called Heisenberg selling some of that new blue\n");
+            printf("Do you meet with them and steal their blue and make an ez profit or you peacefully accept their offer(1/2)\n");
             scanf("%f", &input3);
             if(input3 == '1')
             {
                 printf("congrats you stole a few pounds of that new blue meth!\n");//reference to breaking bad dont sue me
                 printf("now you are DEA's most wanted list for the rest of your life\n");
+            }
+            if(input3 == '2')
+            {
+                
             }
         }
     }
