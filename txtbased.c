@@ -6,7 +6,7 @@
 
 int main(void)
 {
-   float input, input2; 
+   float input, input2, input3; 
    char input2;
    
     printf("Choose your life 1.[a cartel drug lord] or 2.[a absolute chad of a father]\n");
@@ -17,6 +17,16 @@ int main(void)
         scanf(" %c", &input2);
         if(input2 == 'y'){
          printf("you get a corona and later realized you got drugged yourself and betrayed by one of your homies\n");
+        }
+        if(input2 == 'n'){
+            printf("You saved yourself congrats, afterwards you meet up some new guy in town called Heisenberg selling some of that new blue");
+            printf("Do you meet with them and steal their blue and make an ez profit or you peacefully accept their offer(1/2)");
+            scanf("%f", &input3);
+            if(input3 == '1')
+            {
+                printf("congrats you stole a few pounds of that new blue meth!\n");//reference to breaking bad dont sue me
+                printf("now you are DEA's most wanted list for the rest of your life\n");
+            }
         }
     }
     if (input == 2)
