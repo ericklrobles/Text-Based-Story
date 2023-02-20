@@ -29,7 +29,9 @@ int main(void)
             }
             if(input3 == '2')
             {
-                
+                printf("you peacefully accept the offer and buy of around 40k per pound of the new blue\n");
+                printf("and then you eventually get beaten to some druggy kid that takes his own product\n");
+                printf("therefore the dea still finds you and ambushes you THE END :D \n");
             }
         }
     }
